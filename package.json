@@ -1,0 +1,20 @@
+{
+  "name": "client-payment-ledger",
+  "version": "1.0.0",
+  "description": "Client Monthly Fixed Payment & Ledger Management System with Custom Overrides and Month-wise Balances",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "ledger",
+    "client-billing",
+    "monthly-payments",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
